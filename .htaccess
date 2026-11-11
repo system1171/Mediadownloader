@@ -1,0 +1,9 @@
+# Media Downloader - project-wide Apache settings (XAMPP allows .htaccess in htdocs by default)
+
+# Never show a file listing for any folder.
+Options -Indexes
+
+# Hide hidden files such as .gitkeep or .git from the web.
+<FilesMatch "^\.(?!htaccess$)">
+    Require all denied
+</FilesMatch>

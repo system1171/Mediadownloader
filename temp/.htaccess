@@ -1,0 +1,3 @@
+# Nothing in this folder may be requested directly.
+# Files are only handed out through api/download.php using a random token.
+Require all denied

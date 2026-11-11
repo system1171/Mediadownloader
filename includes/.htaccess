@@ -1,0 +1,2 @@
+# PHP include files and configuration must never be requested directly.
+Require all denied
